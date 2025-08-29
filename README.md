@@ -1,3 +1,4 @@
+
 # welcome to my repo
 instructions:
 1. copy repository into your own codespace 
@@ -14,11 +15,11 @@ sometimes the tab will close due to lack of wifi, not sure if theres much we can
 
 # DISCLAIMER
 I did not make any of these web ports, all credit for these htmls goes to:
-[]([98Corbins](https://98cornbin.netlify.app/))
-[bog/aukak]([url](https://github.com/aukak))
-[burnedpopcorn]([url](https://github.com/burnedpopcorn))
-[irv77]([url](https://github.com/irv77))
-[koi/_flixel]([url](https://oldgrounds.xyz/))
-[slqnt]([url](https://github.com/slqntdevss))
-[SpanishFreddy]([url](https://github.com/spanishfreddy))
-[genizy]([url](https://github.com/genizy))
+[98Corbins](https://98cornbin.netlify.app/)
+[bog/aukak](https://github.com/aukak)
+[burnedpopcorn](https://github.com/burnedpopcorn)
+[irv77](https://github.com/irv77)
+[koi/_flixel](https://oldgrounds.xyz/)
+[slqnt](https://github.com/slqntdevss)
+[SpanishFreddy](https://github.com/spanishfreddy)
+[genizy](https://github.com/genizy)
