@@ -14,7 +14,9 @@ sometimes the tab will close due to lack of wifi, not sure if theres much we can
 3. speed up loading times
 
 # DISCLAIMER
-I did not make any of these web ports, all credit for these htmls goes to:
+I did not make any of these web ports, i just made a shoddy way to host it without filtering. 
+
+all credit for these htmls goes to:
 1. [98Corbins](https://98cornbin.netlify.app/)
 2. [bog/aukak](https://github.com/aukak)
 3. [burnedpopcorn](https://github.com/burnedpopcorn)
