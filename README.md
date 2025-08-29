@@ -15,11 +15,11 @@ sometimes the tab will close due to lack of wifi, not sure if theres much we can
 
 # DISCLAIMER
 I did not make any of these web ports, all credit for these htmls goes to:
-[98Corbins](https://98cornbin.netlify.app/)
-[bog/aukak](https://github.com/aukak)
-[burnedpopcorn](https://github.com/burnedpopcorn)
-[irv77](https://github.com/irv77)
-[koi/_flixel](https://oldgrounds.xyz/)
-[slqnt](https://github.com/slqntdevss)
-[SpanishFreddy](https://github.com/spanishfreddy)
-[genizy](https://github.com/genizy)
+1. [98Corbins](https://98cornbin.netlify.app/)
+2. [bog/aukak](https://github.com/aukak)
+3. [burnedpopcorn](https://github.com/burnedpopcorn)
+4. [irv77](https://github.com/irv77)
+5. [koi/_flixel](https://oldgrounds.xyz/)
+6. [slqnt](https://github.com/slqntdevss)
+7. [SpanishFreddy](https://github.com/spanishfreddy)
+8. [genizy](https://github.com/genizy)
