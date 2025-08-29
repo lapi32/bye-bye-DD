@@ -13,12 +13,12 @@ sometimes the tab will close due to lack of wifi, not sure if theres much we can
 3. speed up loading times
 
 # DISCLAIMER
-I did not make any of these web ports, all credit for these htmls goes to
-98Corbins
-bog/aukak
-burnedpopcorn
-irv77
-koi/_flixel
-slqnt
-SpanishFreddy
-genizy
+I did not make any of these web ports, all credit for these htmls goes to:
+[98Corbins]([url](https://98cornbin.netlify.app/))
+[bog/aukak]([url](https://github.com/aukak))
+[burnedpopcorn]([url](https://github.com/burnedpopcorn))
+[irv77]([url](https://github.com/irv77))
+[koi/_flixel]([url](https://oldgrounds.xyz/))
+[slqnt]([url](https://github.com/slqntdevss))
+[SpanishFreddy]([url](https://github.com/spanishfreddy))
+[genizy]([url](https://github.com/genizy))
