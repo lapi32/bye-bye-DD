@@ -14,7 +14,7 @@ sometimes the tab will close due to lack of wifi, not sure if theres much we can
 
 # DISCLAIMER
 I did not make any of these web ports, all credit for these htmls goes to:
-[98Corbins]([url](https://98cornbin.netlify.app/))
+[]([98Corbins](https://98cornbin.netlify.app/))
 [bog/aukak]([url](https://github.com/aukak))
 [burnedpopcorn]([url](https://github.com/burnedpopcorn))
 [irv77]([url](https://github.com/irv77))
