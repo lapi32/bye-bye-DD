@@ -2,8 +2,8 @@
 # welcome to my repo
 instructions:
 1. copy repository into your own codespace 
-2. run any of the python files
-3. open the http://localhost:3000 link
+2. run app.py
+3. select your game!
 4. MAKE SURE: turn off wifi once game downloading of assets is finished
 # warnings
 sometimes the tab will close due to lack of wifi, not sure if theres much we can do about this so just try to get a save in before it does this
