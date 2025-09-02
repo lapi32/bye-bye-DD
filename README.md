@@ -6,15 +6,14 @@ instructions:
 3. select your game!
 4. MAKE SURE: turn off wifi once game downloading of assets is finished
 # warnings
-sometimes the tab will close due to lack of wifi, not sure if theres much we can do about this so just try to get a save in before it does this
+sometimes the tab will close due to lack of wifi, not sure if theres much I can do about this so just try to get a save in before it does this
 
 # TO DO LIST
-1. make a working ui (would appreciate help)
-2. fix wifi issues potentially
-3. speed up loading times
+1. fix wifi issues potentially
+2. speed up loading times
 
 # DISCLAIMER
-I did not make any of these web ports, i just made a shoddy way to host it without filtering. 
+I did not make any of these web ports, I just made a shoddy way to host it without filtering. 
 
 all credit for these htmls goes to:
 1. [98Corbins](https://98cornbin.netlify.app/)
