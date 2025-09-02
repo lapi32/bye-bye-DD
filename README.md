@@ -13,7 +13,7 @@ sometimes the tab will close due to lack of wifi, not sure if theres much I can 
 2. speed up loading times
 
 # DISCLAIMER
-I did not make any of these web ports, I just made a shoddy way to host it without filtering. 
+I did not make any of these web ports, I just made a shoddy way to host it without stupid deledao filtering. 
 
 all credit for these htmls goes to:
 1. [98Corbins](https://98cornbin.netlify.app/)
