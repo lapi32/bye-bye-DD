@@ -1,7 +1,7 @@
 
 # welcome to my repo
 instructions:
-1. copy repository into your own codespace 
+1. copy repository into your own codespace **(when prompted in the bottom right, install the python extension for codespaces)**
 2. run app.py
 3. select your game!
 4. MAKE SURE: turn off wifi once game downloading of assets is finished
