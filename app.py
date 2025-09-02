@@ -17,6 +17,7 @@ PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>gogle claspromm</title>
     </head>
     <body>
