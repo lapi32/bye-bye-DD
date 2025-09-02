@@ -1,3 +1,6 @@
+import pip
+pip.main(['install', 'flask'])
+
 from flask import Flask, render_template_string, send_file, abort
 import os
 
@@ -18,6 +21,7 @@ PAGE_TEMPLATE = """
     </head>
     <body>
         <h1>show us games in the classroom</h1>
+        <h1>wassup gucci gamers</h1>
         <ul>
         {% for f in html_files %}
             <li>
