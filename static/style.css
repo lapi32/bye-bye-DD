@@ -1,10 +1,11 @@
 /* CSS Variables for easy customization */
 :root {
-    --main-bg: #f5f5f5;
-    --main-color: #222;
-    --accent-color: #1c232b;
-    --font-family: 'Segoe UI', Arial, sans-serif;
+    --main-bg: #d4f6fc;
+    --main-color: #23322;
+    --accent-color: #331632;
+    --font-family: 'Trebuchet MS', Arial, sans-serif;
     --heading-font: 'Montserrat', sans-serif;
+    
 }
 
 body {
@@ -19,14 +20,16 @@ h1 {
     font-family: var(--heading-font);
     color: var(--accent-color);
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 h2 {
     font-family: var(--heading-font);
     color: var(--accent-color);
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
     font-weight: normal;
 }
 
@@ -38,11 +41,11 @@ ul {
 }
 
 li {
-    background: #fff;
-    margin: 0.5rem 0;
+    background: #ffffff;
+    margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 

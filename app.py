@@ -17,22 +17,24 @@ PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-        <title>gogle claspromm</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">        <title>Google Classroom</title>
     </head>
     <body>
-        <h1>Games and stuff</h1>
+        <h1>Games List</h1>
         <h2>wassup gucci gamers</h2>
         <ul>
-        {% for f in html_files %}
+            {% for f in html_files %}
             <li>
                 <a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a>
             </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
     </body>
 </html>
 """
+
+
+
 
 @app.route("/")
 def homepage():
