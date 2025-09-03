@@ -1,3 +1,6 @@
+import pip
+pip.main(['install', 'flask'])
+
 from flask import Flask, render_template_string, send_file, abort
 import os
 
@@ -14,21 +17,24 @@ PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html>
     <head>
-        <title>gogle claspromm</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">        <title>Google Classroom</title>
     </head>
     <body>
-        <h1>show us games in the classroom</h1>
+        <h1>Games List</h1>
+        <h2>wassup gucci gamers</h2>
         <ul>
-        {% for f in html_files %}
+            {% for f in html_files %}
             <li>
-                <!-- biggity boopity -->
                 <a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a>
             </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
     </body>
 </html>
 """
+
+
+
 
 @app.route("/")
 def homepage():

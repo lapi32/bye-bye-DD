@@ -1,0 +1,69 @@
+/* CSS Variables for easy customization */
+:root {
+    --main-bg: #d4f6fc;
+    --main-color: #23322;
+    --accent-color: #331632;
+    --font-family: 'Trebuchet MS', Arial, sans-serif;
+    --heading-font: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    background: var(--main-bg);
+    color: var(--main-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+li {
+    background: #ffffff;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
