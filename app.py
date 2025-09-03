@@ -28,6 +28,15 @@ PAGE_TEMPLATE = """
                 <a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a>
             </li>
             {% endfor %}
+
+            <li>
+                <a 
+                    href = "https://www.kroger.com/product/images/xlarge/front/0001300000218"
+                    target = "_blank"
+                    rel = "noopener noreferrer"
+                    >MUSSTAARD
+                </a>
+            </li>
         </ul>
     </body>
 </html>
