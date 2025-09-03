@@ -20,8 +20,7 @@ PAGE_TEMPLATE = """
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">        <title>Google Classroom</title>
     </head>
     <body>
-        <h1>Games List</h1>
-        <h2>wassup gucci gamers</h2>
+        <h1>anything but work 😭</h1>
         <ul>
             {% for f in html_files %}
             <a href="{{ url_for('see_file', filename=f) }}">
