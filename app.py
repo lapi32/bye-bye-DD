@@ -28,6 +28,15 @@ PAGE_TEMPLATE = """
                 <li>{{ f }}</li>
             </a>
             {% endfor %}
+
+            <li>
+                <a 
+                    href = "https://www.kroger.com/product/images/xlarge/front/0001300000218"
+                    target = "_blank"
+                    rel = "noopener noreferrer"
+                    >MUSSTAARD
+                </a>
+            </li>
         </ul>
     </body>
 </html>
