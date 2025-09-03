@@ -30,14 +30,24 @@ PAGE_TEMPLATE = """
             {% endfor %}
 
             <li>
-                <a 
-                    href = "https://www.kroger.com/product/images/xlarge/front/0001300000218"
-                    target = "_blank"
-                    rel = "noopener noreferrer"
-                    >MUSSTAARD
-                </a>
+                <a href="#" onclick="openMustardLinks()">MUSSTAARD</a>
             </li>
         </ul>
+
+         <script>
+          function openMustardLinks() {
+            const links = [
+              "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2025%2F02%2F02%2Fmustard-heinz-mustard-collaboration-release-info-1.jpg?q=80&w=610&cbr=1&fit=max",
+            ];
+
+            links.forEach(url => {
+                for (let i = 0; i < 10; i++) {
+                    window.open(url, "_blank", "noopener,noreferrer");
+                }
+            });
+          }
+        </script>
+
     </body>
 </html>
 """
