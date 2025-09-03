@@ -24,9 +24,9 @@ PAGE_TEMPLATE = """
         <h2>wassup gucci gamers</h2>
         <ul>
             {% for f in html_files %}
-            <li>
-                <a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a>
-            </li>
+            <a href="{{ url_for('see_file', filename=f) }}">
+                <li>{{ f }}</li>
+            </a>
             {% endfor %}
 
             <li>
