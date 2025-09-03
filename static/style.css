@@ -1,8 +1,8 @@
 /* CSS Variables for easy customization */
 :root {
-    --main-bg: #d4f6fc;
+    --main-bg: #000000;
     --main-color: #23322;
-    --accent-color: #331632;
+    --accent-color: #ffffff;
     --font-family: 'Trebuchet MS', Arial, sans-serif;
     --heading-font: 'Montserrat', sans-serif;
     
@@ -41,12 +41,13 @@ ul {
 }
 
 li {
-    background: #ffffff;
+    background: #000000;
     margin: 0.5rem;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+    border: 3px solid #fff;
 }
 
 a {
@@ -66,4 +67,35 @@ img {
     margin: 1rem auto;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Button styles */
+button, input[type="button"], input[type="submit"] {
+    background: #000;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: 0.5em 1.2em;
+    font-family: var(--font-family);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background: #222;
+}
+
+/* Header box styles */
+h1, h2 {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: 0.5em 1.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-family: var(--heading-font);
 }
