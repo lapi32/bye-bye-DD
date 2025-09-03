@@ -39,9 +39,16 @@ li:hover {
 h1 {
     font-family: var(--heading-font);
     color: var(--accent-color);
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 0rem;
+    text-align: left;
+    position: fixed;
+    left: 16px;
+    top: 12px;
+    font-size: 1.1em;
+    margin: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 10;
 }
 
 h2 {
