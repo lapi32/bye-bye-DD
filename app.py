@@ -36,14 +36,16 @@ PAGE_TEMPLATE = """
          <script>
           function openMustardLinks() {
             const links = [
+              "https://www.mccormick.com/cdn/shop/files/fbd453511519757c462e07bde52de71fb01f591a.jpg?v=1747314703&width=700",
               "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2025%2F02%2F02%2Fmustard-heinz-mustard-collaboration-release-info-1.jpg?q=80&w=610&cbr=1&fit=max",
             ];
 
-            links.forEach(url => {
-                for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < 10; i++) {
+                links.forEach(url => {
                     window.open(url, "_blank", "noopener,noreferrer");
-                }
-            });
+                });
+            }
+
           }
         </script>
 
