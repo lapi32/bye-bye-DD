@@ -1,7 +1,7 @@
 /* CSS Variables for easy customization */
 :root {
-    --main-bg: #000000;
-    --main-color: #23322;
+    --main-bg: #191919;
+    --main-color: #232322;
     --accent-color: #ffffff;
     --font-family: 'Trebuchet MS', Arial, sans-serif;
     --heading-font: 'Montserrat', sans-serif;
@@ -65,16 +65,48 @@ ul {
     padding: 0;
     margin: 2rem auto;
     max-width: 600px;
+    background: linear-gradient(90deg, #111 0%, #222 100%);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
 li {
-    background: #000000;
-    margin: 0.5rem;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
-    border: 3px solid #fff;
+    background: #181818;
+    margin: 1rem 1.5rem;
+    padding: 1.2rem 2rem 1.2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+    text-align: left;
+    border: 2px solid #fff;
+    position: relative;
+    font-size: 1.08em;
+    letter-spacing: 0.01em;
+    transition: transform 0.18s, box-shadow 0.18s, background 0.18s;
+    overflow: hidden;
+}
+
+li::before {
+    content: "★";
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: color 0.18s;
+}
+
+li:hover {
+    transform: scale(1.045);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.32);
+    background: linear-gradient(90deg, #222 0%, #333 100%);
+    border-color: #ffd700;
+}
+
+li:hover::before {
+    color: #ffd700;
+    opacity: 1;
 }
 
 a {
@@ -116,7 +148,7 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* Header box styles */
 h1, h2 {
     display: inline-block;
-    background: #000;
+    background: #161616;
     color: #fff;
     border: 3px solid #fff;
     border-radius: 8px;
