@@ -25,9 +25,14 @@ PAGE_TEMPLATE = """
             {% for f in html_files %}
                 <li><a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a></li>
             {% endfor %}
-                <li><a href="#" onclick="openMustardLinks()">MUSSTAARD</a></li>
         </ul>
 
+        <ul class="mustard">
+        <li>
+            <button onclick="openMustardLinks()">MUSSTARD</button>
+        </li>
+        </ul>
+        
          <script>
           function openMustardLinks() {
             const links = [
@@ -43,7 +48,6 @@ PAGE_TEMPLATE = """
 
           }
         </script>
-
     </body>
 </html>
 """

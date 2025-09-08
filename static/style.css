@@ -67,6 +67,35 @@ ul.button-grid a {
     height: 100%;
 }
 
+ul.mustard {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 10;
+    color: yellow;
+    width: 300px; /* Optional: set a width for the button container */
+    display: flex;
+    justify-content: center;
+    list-style: none;   /* Remove bullet */
+    padding: 0;         /* Remove default padding */
+    margin: 0;          /* Remove default margin */
+}
+
+ul.mustard button {
+    width: 100%;
+    margin: 0.5rem;
+    background: yellow;
+    color: rgb(255, 0, 0);
+    border: 3px solid yellow;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transition: background 0.2s, color 0.2s;
+    display: block;
+}
+
 /* ============================= */
 /* HEADINGS & OTHER STYLES       */
 /* ============================= */
