@@ -21,16 +21,11 @@ PAGE_TEMPLATE = """
     </head>
     <body>
         <h1>anything but work 😭</h1>
-        <ul>
+        <ul class="button-grid">
             {% for f in html_files %}
-            <a href="{{ url_for('see_file', filename=f) }}">
-                <li>{{ f }}</li>
-            </a>
+                <li><a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a></li>
             {% endfor %}
-
-            <li>
-                <a href="#" onclick="openMustardLinks()">MUSSTAARD</a>
-            </li>
+                <li><a href="#" onclick="openMustardLinks()">MUSSTAARD</a></li>
         </ul>
 
          <script>
