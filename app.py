@@ -28,9 +28,9 @@ PAGE_TEMPLATE = """
         </ul>
 
         <ul class="mustard">
-        <li>
-            <button onclick="openMustardLinks()">MUSSTARD</button>
-        </li>
+            <li>
+                <button onclick="openMustardLinks()">MUSSTARD</button>
+            </li>
         </ul>
         
          <script>
@@ -45,7 +45,6 @@ PAGE_TEMPLATE = """
                     window.open(url, "_blank", "noopener,noreferrer");
                 });
             }
-
           }
         </script>
     </body>
