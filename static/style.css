@@ -1,14 +1,19 @@
 /* CSS Variables for easy customization */
 :root {
-    --main-bg: #191919;
+    --main-bg: #361134;
     --main-color: #232322;
-    --accent-color: #ffffff;
-    --font-family: 'Trebuchet MS', Arial, sans-serif;
+    --accent-color: #e0def4;
+    --font-family: 'Courier New', Courier, monospace;
     --heading-font: 'Montserrat', sans-serif;
 }
 
 body {
-    background: var(--main-bg);
+    background-image: url('/static/clouds.JPG');
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
     color: var(--main-color);
     font-family: var(--font-family);
     margin: 0;
@@ -26,21 +31,23 @@ body {
 /* GRID BUTTON LIST              */
 /* ============================= */
 ul.button-grid {
+    background-color: #232136 0.3;
+    backdrop-filter: blur(12px);
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 per row */
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     list-style: none;
     padding: 2rem;
     margin: 2rem auto;
     margin-top: 4rem;
-    max-width: 1000px; /* wider than before */
-    background: linear-gradient(90deg, #111 0%, #222 100%);
+    max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
 ul.button-grid li {
-    background: #181818;
+    background: #2a273f 0.3;
+    backdrop-filter: blur(8px);
     border-radius: 12px;
     border: 2px solid #fff;
     text-align: center;
@@ -55,8 +62,8 @@ ul.button-grid li {
 ul.button-grid li:hover {
     transform: scale(1.045);
     box-shadow: 0 12px 32px rgba(0,0,0,0.32);
-    background: linear-gradient(90deg, #222 0%, #333 100%);
-    border-color: #ffd700;
+    background: #232136 0.6; 
+    border-color: #eb6f92;
 }
 
 ul.button-grid a {

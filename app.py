@@ -17,10 +17,10 @@ PAGE_TEMPLATE = """
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">        <title>Google Classroom</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Game List</title>
     </head>
     <body>
-        <h1>anything but work 😭</h1>
         <ul class="button-grid">
             {% for f in html_files %}
                 <li><a href="{{ url_for('see_file', filename=f) }}">{{ f }}</a></li>
